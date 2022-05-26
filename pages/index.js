@@ -46,7 +46,7 @@ export default function Home() {
       <div
         className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={workRef}>
-        <h1 className="text-2xl text-bold">Work.</h1>
+        <h1 className="text-2xl text-bold">Recent Projects:</h1>
         <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-4">
           {data.projects.map((project, index) => (
             <WorkCard
@@ -74,7 +74,7 @@ export default function Home() {
       <div
         className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={aboutRef}>
-        <h1 className="text-2xl text-bold">About.</h1>
+        <h1 className="text-2xl text-bold">About Me:</h1>
         <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-3/5">
           {data.aboutpara}
         </p>
@@ -86,10 +86,8 @@ export default function Home() {
         </div>
       </div>
       <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
-        </Link>
+       
+
       </h1>
     </div>
   );
