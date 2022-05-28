@@ -1,7 +1,7 @@
 import React from "react";
 // import logo from '../../PSLogolarge.png';
 
-const WorkCard = ({ img, name, description, onClick }) => {
+const WorkCard = ({ img, name, description, team, features, technologies, onClick }) => {
   // console.log('logo', logo)
   return (
     <div
@@ -18,6 +18,15 @@ const WorkCard = ({ img, name, description, onClick }) => {
       <h2 className="text-xl opacity-50">
         {description ? description : "Description"}
       </h2>
+      <h3 className="text-l opacity-50">
+        {team ? team : "team"}
+      </h3>
+      <h3 className="text-l opacity-50">
+        {features ? features : "features"}
+      </h3>
+      <h3 className="text-l opacity-50">
+        {technologies ? technologies : "technologies"}
+      </h3>
     </div>
   );
 };

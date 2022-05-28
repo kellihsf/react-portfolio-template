@@ -23,7 +23,10 @@ export default {
   projects: [
     {
       title: "Happy Campers", //Project Title - Add Your Project Title Here
-      description: "A frontend app allows users to search National Parks and view the weather at the selected park at the time of the search.",
+      description: "Happy Campers is a mobile-friendly app that allows users to search National Parks and view the weather at the selected park at the time of the search.",
+      team: 'Team: 3 person development team',
+      features:'Features: Search by National Park name, get park information, see current weather, access reservation link. App uses the National Park and Weather APIs to retrieve data for the user.',
+      technologies: 'Technologies: JavaScript, HTML, CSS',
       //Project Image - Add Your Project Image Here
       imageSrc: gif,
       //Project URL - Add Your Project Url Here
@@ -31,7 +34,10 @@ export default {
     },
     {
       title: "Pocket Sandwich", //Project Title - Add Your Project Title Here
-      description: "A backend app uses the Yelp API to find restaurants via zip code and displays options based on dietary restrictions (Vegan, Vegetarian, etc).",
+      description: "Pocket Sandwich is an app that uses the Yelp API to find restaurants via zip code and displays options based on dietary restrictions (Vegan, Vegetarian, etc).",
+      team: 'Team: 3 person development team',
+      features:'Multipage site with an API data connection. A user can create an account or log in, and find a restaurant near by pulling data from the Yelp API.',
+      technologies: 'Technologies: JavaScript, ejs, CSS, Bootstrap, PostgreSQL, Express.js, Sequelize, bcrypt, cookie-parser, jsonwebtoken, morgan, pg, ElephantSQL',
       //Project Image - Add Your Project Image Here
       imageSrc:
       pocketSandwichImg,
@@ -63,28 +69,24 @@ export default {
 
   // Services Section ---------------
 
-  services: [
-    {
-      title: "Art Direction",
-      description:
-        "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance.",
-    },
-    {
-      title: "Branding",
-      description:
-        "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors.",
-    },
-    {
-      title: "Web Design",
-      description:
-        "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel.",
-    },
-    {
-      title: "3D Design",
-      description:
-        "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life.",
-    },
-  ],
+  // services: [
+  //   {
+  //     title: "Education",
+  //     description:
+  //       "I have a BA in Sociology from Illinois State University.I ",
+  //   },
+  //   {
+  //     title: "Branding",
+  //     description:
+  //       "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors.",
+  //   },
+  //   {
+  //     title: "Web Design",
+  //     description:
+  //       "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel.",
+  //   }
+    
+  // ],
 
   // End Services Section --------------------------
 

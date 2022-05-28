@@ -54,23 +54,28 @@ export default function Home() {
               img={project.imageSrc}
               name={project.title}
               description={project.description}
+              team={project.team}
+              features={project.features}
+              technologies={project.technologies}
               onClick={() => window.open(project.url)}
             />
           ))}
         </div>
       </div>
-      <div className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0">
+      {/* <div className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-2xl text-bold">Services.</h1>
         <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6">
           {data.services.map((service, index) => (
             <ServiceCard
               key={index}
               name={service.title}
-              description={service.description}
+              // description={service.description}
+              team={service.team}
+              features={service.features}
             />
           ))}
         </div>
-      </div>
+      </div> */}
       <div
         className="mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={aboutRef}>
@@ -80,7 +85,7 @@ export default function Home() {
         </p>
       </div>
       <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0">
-        <h1 className="text-2xl text-bold">Contact.</h1>
+        <h1 className="text-2xl text-bold">Contact Me:</h1>
         <div className="mt-5">
           <Socials />
         </div>
