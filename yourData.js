@@ -12,7 +12,7 @@ export default {
 
   //   Header Details ---------------------
   name: "kelli",
-  headerTaglineOne: "Hello 👋",
+  headerTaglineOne: "Hello 👋", 
   headerTaglineTwo:
     "I'm Kelli Stone and I am an aspiring Junior Software Developer.",
 
@@ -104,4 +104,4 @@ export default {
   //   End About Section ---------------------
 };
 
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
+<p>Test</p>

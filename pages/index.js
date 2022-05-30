@@ -44,7 +44,7 @@ export default function Home() {
           {data.headerTaglineOne} <br />
           {data.headerTaglineTwo}
         </h3>
-        <Image className="headshot" src="/kellipic.jpeg" width={250} height={250} class="rounded-full" alt="headshot" />
+        <Image className="headshot" src="/kellipic.jpeg" width={250} height={250} class="rounded-full" alt="head" />
       </div>
       </div>
       <div

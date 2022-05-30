@@ -22,8 +22,8 @@ const WorkCard = ({
         style={{ height: "600px" }}
       >
         <Image alt="headshot" className="h-full w-full object-cover" src={img.src}
-        width={400}
-        height={400} />
+        width={500}
+        height={500} />
       </div>
       <h1 className="mt-5 text-3xl font-medium">
         {name ? name : "Project Name"}
@@ -40,8 +40,8 @@ const WorkCard = ({
         return (
           <Image className="h-10" 
           src={icon.src}
-          width={50}
-          height={50}
+          width={30}
+          height={30}
           alt="icons"/>
         )
       })}
