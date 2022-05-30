@@ -1,5 +1,10 @@
 import gif from './public/happycampersimg.png'
 import pocketSandwichImg from './public/PSLogolarge.png'
+import bootstraplogo from './public/bootstraplogo.png'
+import csslogo from './public/csslogo.png'
+import expresslogo from './public/expresslogo.png'
+import jslogo from './public/jslogo.png'
+import htmllogo from './public/htmllogo.png'
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -24,25 +29,27 @@ export default {
     {
       title: "Happy Campers", //Project Title - Add Your Project Title Here
       description: "Happy Campers is a mobile-friendly app that allows users to search National Parks and view the weather at the selected park at the time of the search.",
-      team: 'Team: 3 person development team',
-      features:'Features: Search by National Park name, get park information, see current weather, access reservation link. App uses the National Park and Weather APIs to retrieve data for the user.',
-      technologies: 'Technologies: JavaScript, HTML, CSS',
+      team: '3 person development team',
+      features:'Search by National Park name, get park information, see current weather, access reservation link. App uses the National Park and Weather APIs to retrieve data for the user.',
+      icons: [jslogo, csslogo, htmllogo],
       //Project Image - Add Your Project Image Here
       imageSrc: gif,
       //Project URL - Add Your Project Url Here
       url: "https://happy-campers-app-working.netlify.app/",
+      githubLink:"https://github.com/kellihsf/Happy-Campers"
     },
     {
       title: "Pocket Sandwich", //Project Title - Add Your Project Title Here
       description: "Pocket Sandwich is an app that uses the Yelp API to find restaurants via zip code and displays options based on dietary restrictions (Vegan, Vegetarian, etc).",
-      team: 'Team: 3 person development team',
+      team: '3 person development team',
       features:'Multipage site with an API data connection. A user can create an account or log in, and find a restaurant near by pulling data from the Yelp API.',
-      technologies: 'Technologies: JavaScript, ejs, CSS, Bootstrap, PostgreSQL, Express.js, Sequelize, bcrypt, cookie-parser, jsonwebtoken, morgan, pg, ElephantSQL',
+      icons: [jslogo, expresslogo, htmllogo, csslogo, bootstraplogo],
       //Project Image - Add Your Project Image Here
       imageSrc:
       pocketSandwichImg,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://pocket-sandwich-fork.herokuapp.com/",
+      githubLink:"https://github.com/kellihsf/Pocket-Sandwich-Fork"
     },
     // {
     //   title: "Spence", //Project Title - Add Your Project Title Here
@@ -92,7 +99,8 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "I am a Full Stack Software Devloper seeking a new career. I attended DigitalCrafts immserive full-stack web development bootcamp. In this program I learned JavaScript, React, Node.js, Express, HTML, CSS and Bootstrap. ",
+    "I am a Full Stack Software Developer seeking a new career. I attended DigitalCrafts immserive full-stack web development bootcamp. In this program I learned JavaScript, React, Node.js, Express, HTML, CSS and Bootstrap. ",
+    
   //   End About Section ---------------------
 };
 
