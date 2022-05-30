@@ -4,6 +4,8 @@ import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import Image from 'next/image'
+
 
 // Local Data
 import data from "../yourData";
@@ -42,7 +44,7 @@ export default function Home() {
           {data.headerTaglineOne} <br />
           {data.headerTaglineTwo}
         </h3>
-        <img className="headshot" src="/kellipic.jpeg" width={250} height={250} alt="image" />
+        <Image className="headshot" src="/kellipic.jpeg" width={250} height={250} class="rounded-full" alt="image" />
       </div>
       </div>
       <div

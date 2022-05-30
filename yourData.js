@@ -99,7 +99,7 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "I am a Full Stack Software Developer seeking a new career. I attended DigitalCrafts immserive full-stack web development bootcamp. In this program I learned JavaScript, React, Node.js, Express, HTML, CSS and Bootstrap. ",
+    "I am a Full Stack Software Developer seeking a new career. I attended DigitalCrafts immserive full-stack web development bootcamp. In this program I learned JavaScript, React, Node.js, Express, HTML, CSS and Bootstrap. I have a BA from Illinois State University, with a demonstrated history of working in tech from being a Technical Support Engineer, to a QA Engineer and now an aspiring Full Stack Developer.",
     
   //   End About Section ---------------------
 };

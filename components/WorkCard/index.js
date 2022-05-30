@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../../public/jslogo.png';
+import Image from 'next/image'
 
 const WorkCard = ({
   img,
@@ -19,7 +20,9 @@ const WorkCard = ({
         className="overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-95 mob:h-48"
         style={{ height: "600px" }}
       >
-        <img alt={name} className="h-full w-full object-cover" src={img.src} />
+        <Image alt={name} className="h-full w-full object-cover" src={img.src}
+        width={400}
+        height={400} />
       </div>
       <h1 className="mt-5 text-3xl font-medium">
         {name ? name : "Project Name"}
@@ -34,7 +37,10 @@ const WorkCard = ({
      <div className="inline-container">
       {icons.map(icon => {
         return (
-          <img className="h-10" src={icon.src}/>
+          <Image className="h-10" 
+          src={icon.src}
+          width={50}
+          height={50}/>
         )
       })}
       </div>
